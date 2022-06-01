@@ -1,0 +1,24 @@
+@use '../sass-utils/variables' as *; 
+header {
+    height: 100vh;
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-color: $Very-Pale-Cyan;
+
+    .hero-unit {
+        padding: 0 3em;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        outline: 1px solid red;
+
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hero-cover {
+            width: 70%;
+        }
+    }
+}
