@@ -1,11 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
 .btn-primary {
-  padding: 1em 3.5em;
+  width: 14em;
+  padding: 1em;
   background-color: white;
+  border: none;
+  border-radius: 2em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+}
+
+.btn-hero {
+  padding: 1em;
+  width: 40%;
+  border-radius: 2em;
+  border: none;
+  background-color: #ff52bf;
+  color: white;
+  cursor: pointer;
+}
+.btn-hero:hover {
+  opacity: 0.8;
 }
 
 header {
@@ -18,23 +56,31 @@ header .hero-unit {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  outline: 1px solid red;
 }
 header .hero-unit .hero-content {
   display: flex;
   flex-direction: column;
+  gap: 2em;
+}
+header .hero-unit .hero-content .hero-title {
+  font-size: 2.5em;
+  max-width: 80%;
+}
+header .hero-unit .hero-content .hero-subtitle {
+  max-width: 70%;
 }
 header .hero-unit .hero-cover {
-  width: 70%;
+  width: 100%;
 }
 
 nav {
+  margin-bottom: 2em;
   height: 20vh;
   display: flex;
   justify-content: center;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3em;
+  padding: 0 3.5em;
 }
 
 /*# sourceMappingURL=styles.css.map */

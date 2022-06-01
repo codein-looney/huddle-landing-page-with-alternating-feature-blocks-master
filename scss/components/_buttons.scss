@@ -1,4 +1,25 @@
+@use '../sass-utils/variables' as *;
+
 .btn-primary {
-    padding: 1em 3.5em;
+    width: 14em;
+    padding: 1em;
     background-color: white;
+    border: none;
+    border-radius: 2em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+
+.btn-hero {
+    padding: 1em;
+    width: 40%;
+    border-radius: 2em;
+    border: none; 
+    background-color: $Pink;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        opacity: .8;
+    }
 }
