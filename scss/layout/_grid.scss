@@ -8,13 +8,34 @@ main {
     // outline: 1px solid red; // TEST
 
     .grid {
+        padding: 0 1.5em 0 6em;
         display: flex;
         align-items: center;
         border-radius: .5em;
-        box-shadow: 0 0 5px 5px rgba(244, 244, 241, 0.711)        
+        box-shadow: 0 0 5px 5px rgba(244, 244, 241, 0.711);     
         
         // outline: 1px solid red; // TEST
 
+        &:nth-child(2) {
+            padding: 3em 0 3em 1em;
+
+        }
+
+        .grid-boxxes {
+            padding: 3em 1em 3em 0;
+            display: flex;
+            align-items: center;
+            gap: 12em;  
+
+            // outline: 1px solid red; // TEST
+
+            .box-content {
+                display: flex;
+                flex-direction: column;
+                gap: 1em;
+                // outline: 1px solid red; // TEST
+            }
+        }
     }
 }
 
