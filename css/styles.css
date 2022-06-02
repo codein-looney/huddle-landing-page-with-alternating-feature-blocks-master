@@ -76,6 +76,9 @@ header .hero-unit .hero-cover {
 main .grid .illustration {
   width: 70%;
 }
+main .grid .illustration:nth-child(1) {
+  width: 60%;
+}
 
 main {
   margin: 7.5em 4em 12em 4em;
@@ -85,6 +88,7 @@ main {
   gap: 2em;
 }
 main .grid {
+  width: 1200px;
   padding: 0 1.5em 0 6em;
   display: flex;
   align-items: center;
@@ -92,7 +96,7 @@ main .grid {
   box-shadow: 0 0 5px 5px rgba(244, 244, 241, 0.711);
 }
 main .grid:nth-child(2) {
-  padding: 3em 0 3em 1em;
+  padding: 0 0 1em 7em;
 }
 main .grid .grid-boxxes {
   padding: 3em 1em 3em 0;

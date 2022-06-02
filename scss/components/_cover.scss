@@ -1,5 +1,9 @@
 main .grid .illustration {
     width: 70%;
 
+    &:nth-child(1) {
+        width: 60%;
+    }
+
     // outline: 1px solid red; // TEST
 }

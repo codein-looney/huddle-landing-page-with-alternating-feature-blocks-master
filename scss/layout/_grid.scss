@@ -8,6 +8,7 @@ main {
     // outline: 1px solid red; // TEST
 
     .grid {
+        width: 1200px;
         padding: 0 1.5em 0 6em;
         display: flex;
         align-items: center;
@@ -17,7 +18,7 @@ main {
         // outline: 1px solid red; // TEST
 
         &:nth-child(2) {
-            padding: 3em 0 3em 1em;
+            padding: 0 0 1em 7em;
 
         }
 
