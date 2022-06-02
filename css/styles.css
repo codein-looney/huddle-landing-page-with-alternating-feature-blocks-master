@@ -52,7 +52,7 @@ header {
   background-color: #ebfbff;
 }
 header .hero-unit {
-  padding: 0 3em;
+  padding: 0 4em;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -67,10 +67,28 @@ header .hero-unit .hero-content .hero-title {
   max-width: 80%;
 }
 header .hero-unit .hero-content .hero-subtitle {
-  max-width: 70%;
+  max-width: 71%;
 }
 header .hero-unit .hero-cover {
   width: 100%;
+}
+
+main .grid .illustration {
+  width: 50%;
+}
+
+main {
+  margin: 7em 4em 10em 4em;
+  height: 185vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .grid {
+  display: flex;
+  align-items: center;
+  border-radius: 0.5em;
+  box-shadow: 0 0 5px 5px rgba(244, 244, 241, 0.711);
 }
 
 nav {
@@ -80,7 +98,7 @@ nav {
   justify-content: center;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3.5em;
+  padding: 0 4em;
 }
 
 /*# sourceMappingURL=styles.css.map */

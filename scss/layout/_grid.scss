@@ -1,0 +1,20 @@
+main {
+    margin: 7em 4em 10em 4em;
+    height: 185vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+    // outline: 1px solid red; // TEST
+
+    .grid {
+        display: flex;
+        align-items: center;
+        border-radius: .5em;
+        box-shadow: 0 0 5px 5px rgba(244, 244, 241, 0.711)        
+        
+        // outline: 1px solid red; // TEST
+
+    }
+}
+
