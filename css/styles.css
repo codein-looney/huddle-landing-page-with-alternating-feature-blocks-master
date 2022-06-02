@@ -95,9 +95,6 @@ main .grid {
   border-radius: 0.5em;
   box-shadow: 0 0 5px 5px rgba(244, 244, 241, 0.711);
 }
-main .grid:nth-child(2) {
-  padding: 0 0 1em 7em;
-}
 main .grid .grid-boxxes {
   padding: 3em 1em 3em 0;
   display: flex;
@@ -108,6 +105,9 @@ main .grid .grid-boxxes .box-content {
   display: flex;
   flex-direction: column;
   gap: 1em;
+}
+main .grid .grid-boxxes .box-content .box-subtitle {
+  max-width: 77%;
 }
 
 nav {
