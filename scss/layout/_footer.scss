@@ -7,17 +7,82 @@
     background: $Very-Dark-Cyan;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-    color: $Very-Pale-Cyan; // TEST
+    color: $Very-Pale-Cyan; 
 
     .socials {
         display: inline-flex;
         gap: .7em;
 
         i {
-            padding: .5em;
+            gap: 1em;           
+            padding: 0.5em;
+            border: 1px solid #c2d3ff;
+            font-size: 1em;
             border-radius: 50%;
+            cursor: pointer;
 
-            border: 1px solid red; // TEST
+            &:hover {
+                color: $Pink;
+                border: 1px solid $Pink;
+            }
+            
+            &:nth-child(1) {
+                padding: 8px 11.2px;
+            }
+        }
+    }
+
+    .info {
+        width: 25%;;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            gap: 1.4em;
+
+            li:nth-child(1) {
+                display: flex;
+                gap: 1em;
+
+                img {
+                    width: 14px;
+                    height: 100%;
+                    transform: translateY(30%);
+                }
+            }
+
+
+            li:nth-child(2) {
+                display: flex;
+                gap: 1em;
+                align-items: center;
+            }
+
+
+            li:nth-child(3) {
+                display: flex;
+                gap: 1em;
+                align-items: center;
+
+                img {
+                    width: 18px;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        transform: translateY(10%);
+
+        &:hover {
+            underline: white;
         }
     }
 }
