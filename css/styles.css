@@ -85,6 +85,18 @@ main .grid .illustration:nth-child(1) {
   width: 60%;
 }
 
+.cta {
+  display: flex;
+  outline: 1px solid red;
+}
+.cta form {
+  padding: 5em 7em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid red;
+}
+
 main {
   margin: 7.5em 4em 16em 4em;
   height: 185vh;
