@@ -6,6 +6,18 @@
     justify-content: space-around;
     background: $Very-Dark-Cyan;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: $Very-Pale-Cyan; // TEST
 
-    color: white; // TEST
+    .socials {
+        display: inline-flex;
+        gap: .7em;
+
+        i {
+            padding: .5em;
+            border-radius: 50%;
+
+            border: 1px solid red; // TEST
+        }
+    }
 }

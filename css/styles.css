@@ -124,7 +124,17 @@ nav {
   justify-content: space-around;
   background: #00252e;
   align-items: center;
-  color: white;
+  font-family: "Open Sans", sans-serif;
+  color: #ebfbff;
+}
+.footer-primary .socials {
+  display: inline-flex;
+  gap: 0.7em;
+}
+.footer-primary .socials i {
+  padding: 0.5em;
+  border-radius: 50%;
+  border: 1px solid red;
 }
 
 /*# sourceMappingURL=styles.css.map */
