@@ -81,7 +81,7 @@ main .grid .illustration:nth-child(1) {
 }
 
 main {
-  margin: 7.5em 4em 12em 4em;
+  margin: 7.5em 4em 16em 4em;
   height: 185vh;
   display: flex;
   flex-direction: column;
@@ -116,6 +116,15 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 4em;
+}
+
+.footer-primary {
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  background: #00252e;
+  align-items: center;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

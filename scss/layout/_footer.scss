@@ -1,0 +1,11 @@
+@use '../sass-utils/variables' as *;
+
+.footer-primary {
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    background: $Very-Dark-Cyan;
+    align-items: center;
+
+    color: white; // TEST
+}
