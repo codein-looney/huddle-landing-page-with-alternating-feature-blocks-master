@@ -190,9 +190,10 @@ nav {
   flex-direction: column;
   gap: 1em;
   transform: translateY(10%);
+  cursor: pointer;
 }
-.footer-primary .links:hover {
-  underline: white;
+.footer-primary .links .link:hover:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=styles.css.map */
