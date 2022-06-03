@@ -88,26 +88,24 @@ main {
   gap: 2em;
 }
 main .grid {
-  width: 1200px;
   padding: 0 1.5em 0 6em;
   display: flex;
   align-items: center;
   border-radius: 0.5em;
   box-shadow: 0 0 5px 5px rgba(244, 244, 241, 0.711);
+  justify-content: center;
 }
-main .grid .grid-boxxes {
+main .grid .grid-box {
+  width: 100%;
   padding: 3em 1em 3em 0;
   display: flex;
   align-items: center;
   gap: 12em;
 }
-main .grid .grid-boxxes .box-content {
+main .grid .grid-box .box-content {
   display: flex;
   flex-direction: column;
   gap: 1em;
-}
-main .grid .grid-boxxes .box-content .box-subtitle {
-  max-width: 77%;
 }
 
 nav {
