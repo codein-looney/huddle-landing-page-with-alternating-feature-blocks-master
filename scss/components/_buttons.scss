@@ -23,3 +23,14 @@
         opacity: .8;
     }
 }
+
+.cta-btn {
+    padding: 1em;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    outline: 1px solid red;
+    border-radius: 2em;
+    border: none;
+}
