@@ -64,6 +64,9 @@ button {
   font-size: 1em;
   cursor: pointer;
 }
+.cta-btn:hover {
+  opacity: 0.8;
+}
 
 header {
   height: 100vh;
@@ -116,7 +119,6 @@ main .grid .illustration:nth-child(1) {
   border-radius: 0.5em;
   transform: translateX(50%, 50%);
   gap: 1.8em;
-  outline: 1px solid red;
 }
 .cta .cta-box .cta-title {
   text-align: center;
