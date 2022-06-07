@@ -25,12 +25,15 @@
 }
 
 .cta-btn {
-    padding: 1em;
+    padding: 1.2em;
     width: 45%;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    outline: 1px solid red;
     border-radius: 2em;
     border: none;
+    background-color: $Pink;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
 }

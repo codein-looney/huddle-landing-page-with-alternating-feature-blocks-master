@@ -52,14 +52,17 @@ button {
 }
 
 .cta-btn {
-  padding: 1em;
+  padding: 1.2em;
   width: 45%;
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  outline: 1px solid red;
   border-radius: 2em;
   border: none;
+  background-color: #ff52bf;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
 }
 
 header {
@@ -100,17 +103,19 @@ main .grid .illustration:nth-child(1) {
   width: 100%;
   display: flex;
   position: absolute;
-  top: 320%;
+  top: 325%;
 }
 .cta .cta-box {
   width: 50%;
+  padding: 3.5em 0 2em 0;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
   background-color: white;
-  border-radius: 0.7em;
+  border-radius: 0.5em;
   transform: translateX(50%, 50%);
+  gap: 1.8em;
   outline: 1px solid red;
 }
 .cta .cta-box .cta-title {
