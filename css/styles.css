@@ -63,6 +63,7 @@ button {
   color: white;
   font-size: 1em;
   cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .cta-btn:hover {
   opacity: 0.8;
@@ -110,7 +111,7 @@ main .grid .illustration:nth-child(1) {
 }
 .cta .cta-box {
   width: 50%;
-  padding: 3.5em 0 2em 0;
+  padding: 3.5em 0 2.5em 0;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
