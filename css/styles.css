@@ -80,6 +80,11 @@ header .hero-unit {
   align-items: center;
   justify-content: space-around;
 }
+@media screen and (max-width: 992px) {
+  header .hero-unit {
+    flex-direction: column;
+  }
+}
 header .hero-unit .hero-content {
   display: flex;
   flex-direction: column;
