@@ -1,37 +1,53 @@
-@use '../sass-utils/variables' as *; 
-header {
-    height: 100vh;
-    background-image: url(/images/bg-hero-desktop.svg);
-    background-color: $Very-Pale-Cyan;
+.hero-unit {
+    padding: 0 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-    .hero-unit {
-        padding: 0 4em;
+    @media screen and (max-width: 992px) {
+        margin-top: 6em;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .hero-content {
         display: flex;
-        align-items: center;
-        justify-content: space-around;
+        flex-direction: column;
+        gap: 1.5em;
 
         @media screen and (max-width: 992px) {
-            flex-direction: column;
+            text-align: center;
         }
 
-        .hero-content {
-            display: flex;
-            flex-direction: column;
-            gap: 2em;
+        .hero-title {
+            font-size: 2.5em;
+            max-width: 80%;
 
-
-            .hero-title {
-                font-size: 2.5em;
-                max-width: 80%;
-            }
-
-            .hero-subtitle {
-                max-width: 71%;
+            @media screen and (max-width: 992px) {
+                margin: 0 auto;
+                font-size: 1.8em;
+                text-align: center;
+                max-width: 100%;
             }
         }
 
-        .hero-cover {
-            width: 100%;
+        .hero-subtitle {
+            max-width: 71%;
+
+            @media screen and (max-width: 992px) {
+                max-width: 90%;
+                margin: 0 auto;
+                font-size: 1.1em;
+            }
+        }
+    }
+
+    .hero-cover {
+        width: 100%;
+
+        @media screen and (max-width: 992px) {
+            width: 85%;
+            margin-top: 4em;
         }
     }
 }

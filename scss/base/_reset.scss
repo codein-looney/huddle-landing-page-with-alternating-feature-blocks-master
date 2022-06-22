@@ -25,3 +25,11 @@ button {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
+
+@media screen and (max-width: 992px) {
+    .footer-primary, 
+    .info,
+    .links {
+        padding-left: .5em;
+    }
+}

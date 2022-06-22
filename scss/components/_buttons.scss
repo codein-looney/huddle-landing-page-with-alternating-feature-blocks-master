@@ -8,6 +8,13 @@
     border-radius: 2em;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     cursor: pointer;
+
+    @media screen and (max-width: 992px) {
+        width: 11em;
+        padding: .5em;
+        font-size: .7em;
+        transform: translateY(-14%);
+    }
 }
 
 .btn-hero {
@@ -22,6 +29,11 @@
     &:hover {
         opacity: .8;
     }
+
+    @media screen and (max-width: 992px) {
+        width: 70%;
+    }
+
 }
 
 .cta-btn {
@@ -40,5 +52,12 @@
     
     &:hover {
         opacity: .8;
+    }
+
+    @media screen and (max-width: 992px) {
+        width: 70%;
+        font-size: .7em;
+        
+        outline: 1px solid red; // TEST
     }
 }

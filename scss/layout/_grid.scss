@@ -1,30 +1,75 @@
 main {
-    margin: 7.5em 4em 18em 4em;
+    margin: 7.5em 4em 12em 4em;
     height: 185vh;
     display: flex;
     flex-direction: column;
     gap: 2em;
+
+    @media screen and (max-width: 992px) {
+        margin: 5em 0 17em 0;
+        height: 100%;
+        gap: 3em;
+    }
 
     .grid {
         padding: 0 1.5em 0 6em; 
         display: flex;
         align-items: center;
         border-radius: .5em;
-        box-shadow: 0 0 5px 5px rgba(244, 244, 241, 0.711);
+        box-shadow: 0 0 5px 5px rgba(235, 235, 233, 0.696);
         justify-content: center;
 
+        @media screen and (max-width: 992px) {
+            margin: 0 auto;
+            width: 90%;
+            padding: 0;
+            border-radius: .8em;
+        }
+
         .grid-box {
-            width: 100%;
             padding: 3em 1em 3em 0; 
             display: flex;
             align-items: center;
             gap: 12em;  
 
+            @media screen and (max-width: 992px) {
+                flex-direction: column-reverse;
+                gap: 3em;
+                text-align: center; 
+                
+                // outline: 1px solid red; // TEST
+            }
+
             .box-content {
                 display: flex;
                 flex-direction: column;
                 gap: 1em;
+                margin: auto 2.6.5em;
+
+
+                .box-subtitle {
+                    @media screen and (max-width: 992px) {
+                        margin: 0 auto;
+                        // max-width: 60%;
+                    }
+                }
             
+            }
+        }
+
+        .box2 { 
+            @media screen and (max-width: 992px) {
+                flex-direction: column;
+
+                .box-content .box-subtitle {
+                    max-width: 85%;
+                }
+            }
+        }
+
+        .box3 .box-content .box-subtitle  { 
+            @media screen and (max-width: 992px) {
+                max-width: 85%;
             }
         }
     }

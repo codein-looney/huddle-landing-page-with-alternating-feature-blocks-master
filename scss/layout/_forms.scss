@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     position: absolute;
-    top: 325%; 
+    top: 310%; 
 
     .cta-box {
         width: 50%;
@@ -18,6 +18,14 @@
 
         .cta-title {
             text-align: center;
+        }
+
+        @media screen and (max-width: 992px) {
+            width: 93%;
+            padding: 3em 0;
+
+    
+            outline: 1px solid red; // TEST
         }
     }
 }
