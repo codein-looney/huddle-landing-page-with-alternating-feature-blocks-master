@@ -2,7 +2,11 @@
     width: 100%;
     display: flex;
     position: absolute;
-    top: 310%; 
+    top: 310%;
+    
+    @media screen and (max-width: 992px) {
+        top: 312%; 
+    }
 
     .cta-box {
         width: 50%;
@@ -16,16 +20,21 @@
         transform: translateX(50%, 50%); 
         gap: 1.8em;
 
+        @media screen and (max-width: 992px) {
+            border-radius: 1em;
+        }
+
         .cta-title {
             text-align: center;
+
+            @media screen and (max-width: 992px) {
+                font-size: 1.1em;
+            }
         }
 
         @media screen and (max-width: 992px) {
             width: 93%;
             padding: 3em 0;
-
-    
-            outline: 1px solid red; // TEST
         }
     }
 }

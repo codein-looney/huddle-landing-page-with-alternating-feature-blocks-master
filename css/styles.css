@@ -90,9 +90,9 @@ button {
 }
 @media screen and (max-width: 992px) {
   .cta-btn {
-    width: 70%;
+    width: 60%;
     font-size: 0.7em;
-    outline: 1px solid red;
+    padding: 1em;
   }
 }
 
@@ -164,6 +164,11 @@ main .grid .illustration:nth-child(1) {
   position: absolute;
   top: 310%;
 }
+@media screen and (max-width: 992px) {
+  .cta {
+    top: 312%;
+  }
+}
 .cta .cta-box {
   width: 50%;
   padding: 3.5em 0 2.5em 0;
@@ -176,14 +181,23 @@ main .grid .illustration:nth-child(1) {
   transform: translateX(50%, 50%);
   gap: 1.8em;
 }
+@media screen and (max-width: 992px) {
+  .cta .cta-box {
+    border-radius: 1em;
+  }
+}
 .cta .cta-box .cta-title {
   text-align: center;
+}
+@media screen and (max-width: 992px) {
+  .cta .cta-box .cta-title {
+    font-size: 1.1em;
+  }
 }
 @media screen and (max-width: 992px) {
   .cta .cta-box {
     width: 93%;
     padding: 3em 0;
-    outline: 1px solid red;
   }
 }
 
