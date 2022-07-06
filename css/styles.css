@@ -142,7 +142,7 @@ button {
   }
 }
 .hero-unit .hero-cover {
-  width: 100%;
+  width: 50%;
 }
 @media screen and (max-width: 992px) {
   .hero-unit .hero-cover {
@@ -152,10 +152,10 @@ button {
 }
 
 main .grid .illustration {
-  width: 70%;
+  width: 30%;
 }
 main .grid .illustration:nth-child(1) {
-  width: 60%;
+  width: 30%;
 }
 
 .cta {
@@ -202,6 +202,7 @@ main .grid .illustration:nth-child(1) {
 }
 
 main {
+  display: none;
   margin: 7.5em 4em 12em 4em;
   height: 185vh;
   display: flex;
